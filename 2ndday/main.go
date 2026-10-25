@@ -34,11 +34,18 @@ func main() {
 
 
 
+	 makeCoffee := func(){
+		coffee := "arabica"
+		fmt.Printf("Making a cup of %s", coffee)
+	 }
+
+	 makeCoffee()
 
 
-	 
+
 	fmt.Println("Hello, World!")
 	// fmt.Println(makeCoffee("arabica"))
 	// fmt.Println(makeCoffee("robusta"))
-	fmt.Println(makeCoffee("arabica"))
+	// fmt.Println(makeCoffee("arabica"))
+
 }
